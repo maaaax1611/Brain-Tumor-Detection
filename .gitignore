@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+*.conda
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Model weights and training artifacts
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.tflite
+*.onnx
+*.pkl
+*.joblib
+*.sav
+
+# Streamlit config files
+.streamlit/
+
+# Model visualizations
+model_architecture.png
+
+# Temporary files
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# System-specific
+.idea/
+.vscode/
+
+# Python dependency files
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Test, coverage and profiling
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+.pyre/
+
+# Conda environment file backup
+conda-meta/
+*.yaml
+
+# Environment variable files
+.env
+.env.*
